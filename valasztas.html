@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>North Travel Utazási Iroda</title>
     <link rel="stylesheet" href="valasztas.css">
+    <script src="valaszto.js"></script>
 </head>
 <body>
     <header>
         <img id="logo" src="Képek/ChatGPT Image 2025. nov. 3. 09_29_13.png" alt="">
 <p id="cim">North Travel Utazási Iroda</p>
-<div class="card">
-    <img id="norveg" src="Képek/Norveg varosok/norvegia.jpg" alt="Avatar" style="width:100%">
-    <p>Norvégia</p>
-</div>
+</header>
 
-    </header>
     
+    <div class="card">
+        <img src="képek/Norveg varosok/norvegia.jpg" alt="Norvégia" style="width:100%">
+        <div class="container">
+          <h4><b>Norvégia</b></h4>
+    
+        </div>
+       
+      </div>
+      <form name="form1" id="form1" action="/action_page.php">
+        Légitársaság: <select name="legi" id="legi">
+          <option value="" selected="selected">WizAir</option>
+          <option value="" selected="selected">RyanAir</option>
+        </select>
+        <br><br>
+        Topics: <select name="topic" id="topic">
+          <option value="" selected="selected">Választjon légitársaságot először</option>
+        </select>
+        <br><br>
+        Chapters: <select name="chapter" id="chapter">
+          <option value="" selected="selected">Please select topic first</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+   
 </body>
 </html>
